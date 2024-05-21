@@ -23,8 +23,8 @@ declare module 'vue-router/auto-routes' {
     '/ContactMe': RouteRecordInfo<'/ContactMe', '/ContactMe', Record<never, never>, Record<never, never>>,
     '/FAQ': RouteRecordInfo<'/FAQ', '/FAQ', Record<never, never>, Record<never, never>>,
     '/portfolio/': RouteRecordInfo<'/portfolio/', '/portfolio', Record<never, never>, Record<never, never>>,
-    '/portfolio/Blc': RouteRecordInfo<'/portfolio/Blc', '/portfolio/Blc', Record<never, never>, Record<never, never>>,
+    '/portfolio/BanffLogCabin': RouteRecordInfo<'/portfolio/BanffLogCabin', '/portfolio/BanffLogCabin', Record<never, never>, Record<never, never>>,
     '/portfolio/Components': RouteRecordInfo<'/portfolio/Components', '/portfolio/Components', Record<never, never>, Record<never, never>>,
-    '/portfolio/Personal': RouteRecordInfo<'/portfolio/Personal', '/portfolio/Personal', Record<never, never>, Record<never, never>>,
+    '/portfolio/PersonalProject': RouteRecordInfo<'/portfolio/PersonalProject', '/portfolio/PersonalProject', Record<never, never>, Record<never, never>>,
   }
 }
