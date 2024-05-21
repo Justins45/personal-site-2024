@@ -3,5 +3,5 @@
 </script>
 
 <template>
-<h1>About</h1>
+<h1>Lets-work-together</h1>
 </template>

@@ -3,5 +3,5 @@
 </script>
 
 <template>
-<h1>About</h1>
+<h1>personal-project</h1>
 </template>
