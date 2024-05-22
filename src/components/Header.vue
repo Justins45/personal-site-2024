@@ -30,9 +30,7 @@ const mobileMenuOpen = ref(false)
         </button>
       </div>
       <div class="flex lg:flex-1">
-        <RouterLink to="/" class="hidden lg:block">
-          Justin Shaw
-        </RouterLink>
+        <RouterLink to="/" class="hidden lg:block"> Justin Shaw </RouterLink>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
         <RouterLink v-for="item in navigation" :key="item.name" :to="item.href" class="">{{
@@ -40,10 +38,14 @@ const mobileMenuOpen = ref(false)
         }}</RouterLink>
       </div>
       <div class="flex flex-1 items-center justify-end gap-x-6">
-          <a href="https://www.linkedin.com/in/justin-shaw-598786227/" class="" aria-label="LinkedIn">
-            <LinkIcon class="w-6 h-6" />
-          </a>
-        <a href="https://www.linkedin.com/in/justin-shaw-598786227/" class="" aria-label="Instagram">
+        <a href="https://www.linkedin.com/in/justin-shaw-598786227/" class="" aria-label="LinkedIn">
+          <LinkIcon class="w-6 h-6" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/justin-shaw-598786227/"
+          class=""
+          aria-label="Instagram"
+        >
           <LinkIcon class="w-6 h-6" />
         </a>
       </div>
@@ -59,23 +61,33 @@ const mobileMenuOpen = ref(false)
             <XMarkIcon class="h-8 w-8" aria-hidden="true" />
           </button>
           <div class="flex flex-1 items-center justify-end gap-x-6">
-            <a href="https://www.linkedin.com/in/justin-shaw-598786227/" class="" aria-label="LinkedIn">
+            <a
+              href="https://www.linkedin.com/in/justin-shaw-598786227/"
+              class=""
+              aria-label="LinkedIn"
+            >
               <LinkIcon class="w-6 h-6" />
             </a>
-            <a href="https://www.linkedin.com/in/justin-shaw-598786227/" class="" aria-label="Instagram">
+            <a
+              href="https://www.linkedin.com/in/justin-shaw-598786227/"
+              class=""
+              aria-label="Instagram"
+            >
               <LinkIcon class="w-6 h-6" />
             </a>
           </div>
         </div>
 
         <div class="flex flex-col text-center font-medium space-y-4 mt-10 text-3xl">
-          <RouterLink v-for="item in navigation" :key="item.name" :to="item.href" class="hover:bg-offwhite-700 rounded-xl py-2">{{
-            item.name
-          }}</RouterLink>
+          <RouterLink
+            v-for="item in navigation"
+            :key="item.name"
+            :to="item.href"
+            class="hover:bg-offwhite-700 rounded-xl py-2"
+            >{{ item.name }}</RouterLink
+          >
         </div>
       </DialogPanel>
     </Dialog>
   </header>
 </template>
-
-

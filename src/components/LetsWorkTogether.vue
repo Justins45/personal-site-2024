@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {ArrowRightIcon} from '@heroicons/vue/24/solid'
+import { ArrowRightIcon } from "@heroicons/vue/24/solid"
 </script>
 
 <template>

@@ -1,7 +1,5 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
-<h1>personal-project</h1>
+  <h1>personal-project</h1>
 </template>

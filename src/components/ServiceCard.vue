@@ -1,11 +1,10 @@
 <script setup lang="ts">
 import type { Component } from "vue"
 const props = defineProps<{
-  title: string,
-  icon: Component,
+  title: string
+  icon: Component
   text: string
 }>()
-
 </script>
 
 <template>
