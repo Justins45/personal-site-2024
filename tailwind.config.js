@@ -10,7 +10,7 @@ export default {
       "gold": "#D1A037", // accents
       "offblack": {
         300: "#3D3D3D", // Light accent lifted background | Dark highlighted
-        500: "#363636", // Light accent | Dark base
+        500: "#363636", // Light accent | Dark base | Light Text
         700: "#2C2B2B", // Dark accent lifted background
         800: "#212121"  // Dark accent
       },
