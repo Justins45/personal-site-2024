@@ -4,20 +4,23 @@
     "typed-router.d.ts"
   ],
   "compilerOptions": {
-    "moduleResolution": "Bundler",
     "types": [
       "unplugin-vue-router/client"
+    ],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@assets/*": ["./assets/*"]
+    },
+    "references": [
+      {
+        "path": "./tsconfig.node.json"
+      },
+      {
+        "path": "./tsconfig.app.json"
+      },
+      {
+        "path": "./tsconfig.vitest.json"
+      }
     ]
-  },
-  "references": [
-    {
-      "path": "./tsconfig.node.json"
-    },
-    {
-      "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.vitest.json"
-    }
-  ]
+  }
 }
