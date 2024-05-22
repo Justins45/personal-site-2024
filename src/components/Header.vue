@@ -14,9 +14,9 @@ const mobileMenuOpen = ref(false)
 </script>
 
 <template>
-  <header class="bg-offwhite-500">
+  <header>
     <nav
-      class="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8"
+      class="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-3 lg:px-8"
       aria-label="Global"
     >
       <div class="flex lg:hidden">
@@ -30,12 +30,14 @@ const mobileMenuOpen = ref(false)
         </button>
       </div>
       <div class="flex lg:flex-1">
-        <a href="#" class="hidden lg:block"> Justin Shaw </a>
+        <RouterLink to="/" class="hidden lg:block">
+          Justin Shaw
+        </RouterLink>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
-        <a v-for="item in navigation" :key="item.name" :href="item.href" class="">{{
+        <RouterLink v-for="item in navigation" :key="item.name" :to="item.href" class="">{{
           item.name
-        }}</a>
+        }}</RouterLink>
       </div>
       <div class="flex flex-1 items-center justify-end gap-x-6">
           <a href="https://www.linkedin.com/in/justin-shaw-598786227/" class="" aria-label="LinkedIn">
@@ -66,10 +68,10 @@ const mobileMenuOpen = ref(false)
           </div>
         </div>
 
-        <div class="flex flex-col text-center font-medium space-y-8 mt-10 text-3xl">
-          <a v-for="item in navigation" :key="item.name" :href="item.href" class="">{{
+        <div class="flex flex-col text-center font-medium space-y-4 mt-10 text-3xl">
+          <RouterLink v-for="item in navigation" :key="item.name" :to="item.href" class="hover:bg-offwhite-700 rounded-xl py-2">{{
             item.name
-          }}</a>
+          }}</RouterLink>
         </div>
       </DialogPanel>
     </Dialog>
