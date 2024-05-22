@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { PaintBrushIcon, ArrowRightIcon } from '@heroicons/vue/24/outline'
+import { PaintBrushIcon, CodeBracketIcon, CommandLineIcon, ArrowRightIcon } from '@heroicons/vue/24/outline'
 import LetsWorkTogether from '@/components/LetsWorkTogether.vue'
 import HaveAQuestion from '@/components/HaveAQuestion.vue'
 import ServiceCard from '@/components/ServiceCard.vue'
@@ -24,6 +24,8 @@ import ServiceCard from '@/components/ServiceCard.vue'
     <div class="bg-offblack-500 text-offwhite-500 py-5 mt-5">
       <h2 class="uppercase text-center text-2xl font-semibold tracking-wider">Services</h2>
       <ServiceCard title="Website Design" :icon="PaintBrushIcon" text="Need a new design or a design in general? I can be the one-stop shop to have the design and the development of your website, or just the design/updates to a design if that is all you need." />
+      <ServiceCard title="Website Maintenance" :icon="CommandLineIcon" text="Have a website that needs to be updated to a new domain or a new codebase? I can help out with that and get your site back up and running on the latest codebase you need!" />
+      <ServiceCard title="Website Development" :icon="CodeBracketIcon" text="Need a website built? I will build you a fresh fancy new website, or make changes to update the current site you already have.  " />
     </div>
     <LetsWorkTogether />
     <div class="mt-5 mx-3">
