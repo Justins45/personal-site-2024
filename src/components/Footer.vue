@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import { LinkIcon } from "@heroicons/vue/24/outline"
+
+// TODO: make footer links send to top of page when clicked
+
 </script>
 
 <template>

@@ -11,6 +11,9 @@ const navigation = [
 ]
 
 const mobileMenuOpen = ref(false)
+
+// TODO: make nav disappear with a click (tailwind-platorm has the fix)
+
 </script>
 
 <template>
