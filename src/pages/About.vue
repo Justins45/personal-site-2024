@@ -17,7 +17,8 @@ import JustinRiverRocks from "@/assets/images/justin-river-rocks.jpg"
       <div class="bg-gold h-1.5 rounded-full w-20 absolute z-30 top-36"></div>
       <div class="bg-gold h-1.5 rounded-full w-20 absolute z-30 top-32"></div>
     </div>
-    <div class="mx-3 space-y-5 text-xl mt-52">
+    <div class="h-16 w-full bg-offblack-500 mt-52"></div>
+    <div class="mx-3 space-y-5 text-xl mt-5">
       <div class="ml-3">
         <p class="text-sm">name</p>
         <div class="-ml-3 h-[1px] bg-offblack-300/30"></div>
