@@ -8,6 +8,9 @@ import {
 import LetsWorkTogether from "@/components/LetsWorkTogether.vue"
 import HaveAQuestion from "@/components/HaveAQuestion.vue"
 import ServiceCard from "@/components/ServiceCard.vue"
+
+import JustinCafe from "@/assets/images/justin-cafe.jpeg"
+
 </script>
 
 <template>
@@ -16,7 +19,7 @@ import ServiceCard from "@/components/ServiceCard.vue"
       <h1 class="mt-3 text-5xl font-black uppercase">I'm Justin</h1>
       <p class="text-xl font-bold uppercase">Your web developer</p>
     </div>
-    <img src="" alt="Image of me in a cafe" class="my-4" />
+    <img :src="JustinCafe" alt="Image of me in a cafe" class="my-4 w-full object-cover object-top h-72" />
     <div class="mx-3 space-y-3 text-xl font-black uppercase">
       <p>Hand made</p>
       <div class="h-1.5 w-36 rounded-full bg-gold"></div>
