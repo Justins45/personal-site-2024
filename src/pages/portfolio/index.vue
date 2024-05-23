@@ -7,13 +7,13 @@ import LetsWorkTogether from '@/components/LetsWorkTogether.vue'
     <div class="mx-3 my-3">
       <h1 class="font-semibold text-3xl">Portfolio Projects</h1>
       <div class="mt-5">
-        <RouterLink to="/banfflogcabin">
+        <RouterLink to="/portfolio/banfflogcabin">
           <img src="" alt="Banff Log Cabin collage" class="mb-3">
         </RouterLink>
-        <RouterLink to="/personalproject">
+        <RouterLink to="/portfolio/personalproject">
           <img src="" alt="This current website collage" class="mb-3">
         </RouterLink>
-        <RouterLink to="/components">
+        <RouterLink to="/portfolio/components">
           <img src="" alt="Artsman components collage" class="mb-3">
         </RouterLink>
       </div>
