@@ -5,8 +5,8 @@ import ViewOtherProjects from "@/components/ViewOtherProjects.vue"
 <template>
   <div class="mx-3">
     <ViewOtherProjects />
-    <h1 class="text-3xl font-bold flex flex-col mt-3">Artsman Components</h1>
-    <div class="mt-5 text-lg space-y-3">
+    <h1 class="mt-3 flex flex-col text-3xl font-bold">Artsman Components</h1>
+    <div class="mt-5 space-y-3 text-lg">
       <p>
         While working at Artsmanagment, a project I was put on was to build a internal library with
         Vue and TailwindCSS.

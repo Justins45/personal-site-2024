@@ -5,11 +5,11 @@ import { LinkIcon } from "@heroicons/vue/24/outline"
 <template>
   <div class="mx-3 py-3">
     <div>
-      <RouterLink to="/" class="font-semibold text-lg tracking-wider"> Justin Shaw </RouterLink>
+      <RouterLink to="/" class="text-lg font-semibold tracking-wider"> Justin Shaw </RouterLink>
     </div>
-    <div class="grid grid-cols-3 mt-3">
+    <div class="mt-3 grid grid-cols-3">
       <div class="col-span-2">
-        <ul class="font-thin text-xl">
+        <ul class="text-xl font-thin">
           <li class="p-2">
             <RouterLink to="/" class="hover:underline"> Home </RouterLink>
           </li>
@@ -29,18 +29,18 @@ import { LinkIcon } from "@heroicons/vue/24/outline"
       </div>
       <div>
         <!-- Icons -->
-        <div class="flex flex-col space-y-5 items-end mr-5">
+        <div class="mr-5 flex flex-col items-end space-y-5">
           <a href="#" aria-label="email">
-            <LinkIcon class="w-8 h-8" />
+            <LinkIcon class="h-8 w-8" />
           </a>
           <a href="#" aria-label="phone">
-            <LinkIcon class="w-8 h-8" />
+            <LinkIcon class="h-8 w-8" />
           </a>
           <a href="#" aria-label="Instagram">
-            <LinkIcon class="w-8 h-8" />
+            <LinkIcon class="h-8 w-8" />
           </a>
           <a href="#" aria-label="LinkedIn">
-            <LinkIcon class="w-8 h-8" />
+            <LinkIcon class="h-8 w-8" />
           </a>
         </div>
       </div>

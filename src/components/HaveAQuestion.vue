@@ -2,8 +2,8 @@
 
 <template>
   <div class="my-5">
-    <h2 class="text-3xl font-bold text-center">Have a question?</h2>
-    <p class="text-lg font-medium text-center mt-3">
+    <h2 class="text-center text-3xl font-bold">Have a question?</h2>
+    <p class="mt-3 text-center text-lg font-medium">
       Feel free to reach out, or
       <RouterLink to="/faq" class="underline decoration-gold underline-offset-2"
         >check out the FAQ</RouterLink

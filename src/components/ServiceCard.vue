@@ -9,14 +9,14 @@ const props = defineProps<{
 
 <template>
   <div class="mt-5">
-    <div class="bg-offblack-300 w-10/12 pb-5 px-3 mx-auto">
-      <div class="pl-3 pt-3 ml-2">
-        <component :is="props.icon" class="w-16 h-16 text-gold" />
+    <div class="mx-auto w-10/12 bg-offblack-300 px-3 pb-5">
+      <div class="ml-2 pl-3 pt-3">
+        <component :is="props.icon" class="h-16 w-16 text-gold" />
       </div>
       <div class="ml-3 mt-5">
-        <h3 class="text-xl font-medium tracking-wider w-32 ml-2">{{ props.title }}</h3>
-        <div class="bg-gold rounded-full h-2 w-56 -mt-2.5"></div>
-        <p class="mt-5 ml-2">{{ props.text }}</p>
+        <h3 class="ml-2 w-32 text-xl font-medium tracking-wider">{{ props.title }}</h3>
+        <div class="-mt-2.5 h-2 w-56 rounded-full bg-gold"></div>
+        <p class="ml-2 mt-5">{{ props.text }}</p>
       </div>
     </div>
   </div>

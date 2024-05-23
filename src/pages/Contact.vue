@@ -6,28 +6,28 @@ import HaveAQuestion from "@/components/HaveAQuestion.vue"
 
 <template>
   <div class="mx-3 mt-3">
-    <h1 class="text-5xl text-center font-black">Let's Work Together</h1>
-    <div class="bg-offblack-300/30 h-[1px] mt-5"></div>
-    <div class="text-center mt-5 mb-8">
+    <h1 class="text-center text-5xl font-black">Let's Work Together</h1>
+    <div class="mt-5 h-[1px] bg-offblack-300/30"></div>
+    <div class="mb-8 mt-5 text-center">
       <div>
-        <div class="flex flex-start justify-center mb-2">
-          <PhoneIcon class="w-6 h-6 mr-1 mt-0.5" />
+        <div class="flex-start mb-2 flex justify-center">
+          <PhoneIcon class="mr-1 mt-0.5 h-6 w-6" />
           <h2 class="text-2xl font-semibold">Call / Text</h2>
         </div>
         <a
           href="tel:+14039881047"
-          class="text-xl font-medium text-gold decoration-gold hover:underline underline-offset-2"
+          class="text-xl font-medium text-gold decoration-gold underline-offset-2 hover:underline"
           >(403) 988-1047</a
         >
       </div>
       <div class="mt-5">
-        <div class="flex flex-start justify-center mb-2">
-          <EnvelopeIcon class="w-6 h-6 mr-1 mt-0.5" />
+        <div class="flex-start mb-2 flex justify-center">
+          <EnvelopeIcon class="mr-1 mt-0.5 h-6 w-6" />
           <h2 class="text-2xl font-semibold">Email</h2>
         </div>
         <a
           href="mailto: shaw.justin@shaw.ca"
-          class="text-xl font-medium text-gold decoration-gold hover:underline underline-offset-2"
+          class="text-xl font-medium text-gold decoration-gold underline-offset-2 hover:underline"
           >shaw.justin@shaw.ca</a
         >
       </div>

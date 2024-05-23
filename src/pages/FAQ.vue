@@ -8,14 +8,14 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue"
     <h1 class="text-3xl font-medium">Frequently Asked Questions</h1>
     <!-- TODO: Make Divider into a component -->
     <div class="my-5">
-      <div class="bg-offblack-300/30 h-[1px] mt-5"></div>
+      <div class="mt-5 h-[1px] bg-offblack-300/30"></div>
       <div>
         <!-- TODO: Make Disclosure into a component ?? ~~Maybe~~ -->
         <Disclosure v-slot="{ open }">
-          <DisclosureButton class="flex w-full justify-between mt-3">
-            <span class="font-semibold text-2xl text-start w-64">How much do you charge?</span>
-            <PlusIcon v-if="!open" class="h-8 w-8 mt-1" />
-            <MinusIcon v-if="open" class="h-8 w-8 mt-1" />
+          <DisclosureButton class="mt-3 flex w-full justify-between">
+            <span class="w-64 text-start text-2xl font-semibold">How much do you charge?</span>
+            <PlusIcon v-if="!open" class="mt-1 h-8 w-8" />
+            <MinusIcon v-if="open" class="mt-1 h-8 w-8" />
           </DisclosureButton>
           <DisclosurePanel class="mt-2">
             My pricing is based off how large of a project you will bring me, and how fast you need
@@ -24,20 +24,20 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue"
           </DisclosurePanel>
         </Disclosure>
       </div>
-      <div class="bg-offblack-300/30 h-[1px] mt-5"></div>
+      <div class="mt-5 h-[1px] bg-offblack-300/30"></div>
       <div>
         <Disclosure v-slot="{ open }">
-          <DisclosureButton class="flex w-full justify-between mt-3">
-            <span class="font-semibold text-2xl text-start w-64"
+          <DisclosureButton class="mt-3 flex w-full justify-between">
+            <span class="w-64 text-start text-2xl font-semibold"
               >What is included in the minimum price?</span
             >
-            <PlusIcon v-if="!open" class="h-8 w-8 mt-1" />
-            <MinusIcon v-if="open" class="h-8 w-8 mt-1" />
+            <PlusIcon v-if="!open" class="mt-1 h-8 w-8" />
+            <MinusIcon v-if="open" class="mt-1 h-8 w-8" />
           </DisclosureButton>
           <DisclosurePanel class="mt-2">
             <div>
               <p>The minimum price includes:</p>
-              <ul class="list-disc ml-5">
+              <ul class="ml-5 list-disc">
                 <li>Base landing page</li>
                 <li>2 additional simple pages of your choosing</li>
                 <li>Styling for the 3 total pages</li>
@@ -46,15 +46,15 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue"
           </DisclosurePanel>
         </Disclosure>
       </div>
-      <div class="bg-offblack-300/30 h-[1px] mt-5"></div>
+      <div class="mt-5 h-[1px] bg-offblack-300/30"></div>
       <div>
         <Disclosure v-slot="{ open }">
-          <DisclosureButton class="flex w-full justify-between mt-3">
-            <span class="font-semibold text-2xl text-start w-64"
+          <DisclosureButton class="mt-3 flex w-full justify-between">
+            <span class="w-64 text-start text-2xl font-semibold"
               >How long will it take to complete?</span
             >
-            <PlusIcon v-if="!open" class="h-8 w-8 mt-1" />
-            <MinusIcon v-if="open" class="h-8 w-8 mt-1" />
+            <PlusIcon v-if="!open" class="mt-1 h-8 w-8" />
+            <MinusIcon v-if="open" class="mt-1 h-8 w-8" />
           </DisclosureButton>
           <DisclosurePanel class="mt-2">
             The length of time to complete each projects depends on the schedule you need it
@@ -64,20 +64,20 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue"
           </DisclosurePanel>
         </Disclosure>
       </div>
-      <div class="bg-offblack-300/30 h-[1px] mt-5"></div>
+      <div class="mt-5 h-[1px] bg-offblack-300/30"></div>
       <div>
         <Disclosure v-slot="{ open }">
-          <DisclosureButton class="flex w-full justify-between mt-3">
-            <span class="font-semibold text-2xl text-start w-64"
+          <DisclosureButton class="mt-3 flex w-full justify-between">
+            <span class="w-64 text-start text-2xl font-semibold"
               >What do I need to have a website built?</span
             >
-            <PlusIcon v-if="!open" class="h-8 w-8 mt-1" />
-            <MinusIcon v-if="open" class="h-8 w-8 mt-1" />
+            <PlusIcon v-if="!open" class="mt-1 h-8 w-8" />
+            <MinusIcon v-if="open" class="mt-1 h-8 w-8" />
           </DisclosureButton>
           <DisclosurePanel class="mt-2">
             <div>
               <p>The checklist items that I would like you to have ready to go are:</p>
-              <ul class="list-disc ml-5">
+              <ul class="ml-5 list-disc">
                 <li>All written content</li>
                 <li>Any images used and their licencing / sources</li>
                 <li>A reliable way to contact you</li>

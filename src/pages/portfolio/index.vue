@@ -5,7 +5,7 @@ import LetsWorkTogether from "@/components/LetsWorkTogether.vue"
 <template>
   <div>
     <div class="mx-3 my-3">
-      <h1 class="font-semibold text-3xl">Portfolio Projects</h1>
+      <h1 class="text-3xl font-semibold">Portfolio Projects</h1>
       <div class="mt-5">
         <RouterLink to="/portfolio/banfflogcabin">
           <img src="" alt="Banff Log Cabin collage" class="mb-3" />

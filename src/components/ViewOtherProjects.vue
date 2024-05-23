@@ -5,9 +5,9 @@ import { ArrowLeftIcon } from "@heroicons/vue/24/outline"
 <template>
   <RouterLink
     to="/portfolio"
-    class="flex flex-start hover:underline underline-offset-2 decoration-gold"
+    class="flex-start flex decoration-gold underline-offset-2 hover:underline"
   >
-    <ArrowLeftIcon class="w-6 h-6 mr-3" />
-    <p class="font-medium text-xl">View Other Projects</p>
+    <ArrowLeftIcon class="mr-3 h-6 w-6" />
+    <p class="text-xl font-medium">View Other Projects</p>
   </RouterLink>
 </template>
