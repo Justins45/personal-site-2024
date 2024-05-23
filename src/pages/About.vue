@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import LetsWorkTogether from "@/components/LetsWorkTogether.vue"
+
+import JustinRiverRocks from "@/assets/images/justin-river-rocks.jpg"
 </script>
 
 <template>
@@ -8,9 +10,14 @@ import LetsWorkTogether from "@/components/LetsWorkTogether.vue"
       <h1 class="ml-3 mt-3 text-xl">About the developer</h1>
       <p class="text-center text-5xl font-black uppercase">Justin Shaw</p>
     </div>
-    <img src="" alt="image of me crouching on rocks by a river" />
-    <div class="h-16 bg-offblack-500"></div>
-    <div class="mx-3 mt-5 space-y-5 text-xl">
+    <div class="relative">
+      <div class="h-24 w-full bg-offblack-500 absolute z-10 top-0 left-0"></div>
+      <img :src="JustinRiverRocks" alt="image of me crouching on rocks by a river" class="w-11/12 h-44 absolute z-20 mt-3 m-auto left-0 right-0 " />
+      <div class="bg-gold h-1.5 rounded-full w-20 absolute z-30 top-40"></div>
+      <div class="bg-gold h-1.5 rounded-full w-20 absolute z-30 top-36"></div>
+      <div class="bg-gold h-1.5 rounded-full w-20 absolute z-30 top-32"></div>
+    </div>
+    <div class="mx-3 space-y-5 text-xl mt-52">
       <div class="ml-3">
         <p class="text-sm">name</p>
         <div class="-ml-3 h-[1px] bg-offblack-300/30"></div>
