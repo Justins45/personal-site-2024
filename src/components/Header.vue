@@ -3,6 +3,10 @@ import { ref } from "vue"
 import { Dialog, DialogPanel } from "@headlessui/vue"
 import { Bars3Icon, XMarkIcon, LinkIcon } from "@heroicons/vue/24/outline"
 
+import Insagram from "@/assets/svgs/instagram.svg"
+import LinkedIn from "@/assets/svgs/linkedin.svg"
+import BurgerMenu from "@/assets/svgs/burger-menu.svg"
+
 const navigation = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
@@ -29,7 +33,7 @@ const mobileMenuOpen = ref(false)
           @click="mobileMenuOpen = true"
         >
           <span class="sr-only">Open main menu</span>
-          <Bars3Icon class="h-8 w-8" aria-hidden="true" />
+          <img :src="BurgerMenu" alt="burger menu svg" class="h-8 w-8 text-offblack-500" aria-hidden="true" />
         </button>
       </div>
       <div class="flex lg:flex-1">
@@ -40,16 +44,19 @@ const mobileMenuOpen = ref(false)
           item.name
         }}</RouterLink>
       </div>
-      <div class="flex flex-1 items-center justify-end gap-x-6">
-        <a href="https://www.linkedin.com/in/justin-shaw-598786227/" class="" aria-label="LinkedIn">
-          <LinkIcon class="h-6 w-6" />
+      <div class="flex flex-1 items-center justify-end gap-x-2">
+        <a href="https://www.linkedin.com/in/justin-shaw-598786227/"
+           target="_blank"
+           aria-label="LinkedIn"
+        >
+          <img :src="LinkedIn" alt="linkedin svg" class="h-6 w-6 text-offblack-500" />
         </a>
         <a
-          href="https://www.linkedin.com/in/justin-shaw-598786227/"
-          class=""
+          href="https://www.instagram.com/jx_shaw/"
+          target="_blank"
           aria-label="Instagram"
         >
-          <LinkIcon class="h-6 w-6" />
+          <img :src="Insagram" alt="instagram svg" class="h-6 w-6 text-offblack-500" />
         </a>
       </div>
     </nav>
@@ -63,20 +70,20 @@ const mobileMenuOpen = ref(false)
             <span class="sr-only">Close menu</span>
             <XMarkIcon class="h-8 w-8" aria-hidden="true" />
           </button>
-          <div class="flex flex-1 items-center justify-end gap-x-6">
+          <div class="flex flex-1 items-center justify-end gap-x-2">
             <a
               href="https://www.linkedin.com/in/justin-shaw-598786227/"
-              class=""
+              target="_blank"
               aria-label="LinkedIn"
             >
-              <LinkIcon class="h-6 w-6" />
+              <img :src="LinkedIn" alt="linkedin svg" class="h-6 w-6 text-offblack-500" />
             </a>
             <a
-              href="https://www.linkedin.com/in/justin-shaw-598786227/"
-              class=""
+              href="https://www.instagram.com/jx_shaw/"
+              target="_blank"
               aria-label="Instagram"
             >
-              <LinkIcon class="h-6 w-6" />
+              <img :src="Insagram" alt="instagram svg" class="h-6 w-6 text-offblack-500" />
             </a>
           </div>
         </div>
