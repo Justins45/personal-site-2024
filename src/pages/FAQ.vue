@@ -1,10 +1,6 @@
 <script setup lang="ts">
-import { PlusIcon, MinusIcon } from '@heroicons/vue/20/solid'
-import {
-  Disclosure,
-  DisclosureButton,
-  DisclosurePanel,
-} from '@headlessui/vue'
+import { PlusIcon, MinusIcon } from "@heroicons/vue/20/solid"
+import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue"
 </script>
 
 <template>
@@ -18,14 +14,13 @@ import {
         <Disclosure v-slot="{ open }">
           <DisclosureButton class="flex w-full justify-between mt-3">
             <span class="font-semibold text-2xl text-start w-64">How much do you charge?</span>
-            <PlusIcon
-              v-if="!open"
-              class="h-8 w-8 mt-1"
-            />
+            <PlusIcon v-if="!open" class="h-8 w-8 mt-1" />
             <MinusIcon v-if="open" class="h-8 w-8 mt-1" />
           </DisclosureButton>
           <DisclosurePanel class="mt-2">
-            My pricing is based off how large of a project you will bring me, and how fast you need it done. A minimum price would be $600CAD  for any website. Any additions on top would be additional.
+            My pricing is based off how large of a project you will bring me, and how fast you need
+            it done. A minimum price would be $600CAD for any website. Any additions on top would be
+            additional.
           </DisclosurePanel>
         </Disclosure>
       </div>
@@ -33,11 +28,10 @@ import {
       <div>
         <Disclosure v-slot="{ open }">
           <DisclosureButton class="flex w-full justify-between mt-3">
-            <span class="font-semibold text-2xl text-start w-64">What is included in the minimum price?</span>
-            <PlusIcon
-              v-if="!open"
-              class="h-8 w-8 mt-1"
-            />
+            <span class="font-semibold text-2xl text-start w-64"
+              >What is included in the minimum price?</span
+            >
+            <PlusIcon v-if="!open" class="h-8 w-8 mt-1" />
             <MinusIcon v-if="open" class="h-8 w-8 mt-1" />
           </DisclosureButton>
           <DisclosurePanel class="mt-2">
@@ -56,15 +50,17 @@ import {
       <div>
         <Disclosure v-slot="{ open }">
           <DisclosureButton class="flex w-full justify-between mt-3">
-            <span class="font-semibold text-2xl text-start w-64">How long will it take to complete?</span>
-            <PlusIcon
-              v-if="!open"
-              class="h-8 w-8 mt-1"
-            />
+            <span class="font-semibold text-2xl text-start w-64"
+              >How long will it take to complete?</span
+            >
+            <PlusIcon v-if="!open" class="h-8 w-8 mt-1" />
             <MinusIcon v-if="open" class="h-8 w-8 mt-1" />
           </DisclosureButton>
           <DisclosurePanel class="mt-2">
-            The length of time to complete each projects depends on the schedule you need it completed within, the sooner you need it the sooner ill complete it, but for what is included in the minimums it will take about 2-3 weeks depending on the content being built.
+            The length of time to complete each projects depends on the schedule you need it
+            completed within, the sooner you need it the sooner ill complete it, but for what is
+            included in the minimums it will take about 2-3 weeks depending on the content being
+            built.
           </DisclosurePanel>
         </Disclosure>
       </div>
@@ -72,11 +68,10 @@ import {
       <div>
         <Disclosure v-slot="{ open }">
           <DisclosureButton class="flex w-full justify-between mt-3">
-            <span class="font-semibold text-2xl text-start w-64">What do I need to have a website built?</span>
-            <PlusIcon
-              v-if="!open"
-              class="h-8 w-8 mt-1"
-            />
+            <span class="font-semibold text-2xl text-start w-64"
+              >What do I need to have a website built?</span
+            >
+            <PlusIcon v-if="!open" class="h-8 w-8 mt-1" />
             <MinusIcon v-if="open" class="h-8 w-8 mt-1" />
           </DisclosureButton>
           <DisclosurePanel class="mt-2">

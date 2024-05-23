@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ViewOtherProjects from '@/components/ViewOtherProjects.vue'
+import ViewOtherProjects from "@/components/ViewOtherProjects.vue"
 </script>
 
 <template>
@@ -20,10 +20,10 @@ import ViewOtherProjects from '@/components/ViewOtherProjects.vue'
         </ul>
       </div>
       <p>
-        My role was the team design lead for designing and building the project over the course of
-        5 months and managing 2 other design members.
+        My role was the team design lead for designing and building the project over the course of 5
+        months and managing 2 other design members.
       </p>
     </div>
-    <img src="" alt="Banff Log Cabin Collage" class="mt-5">
+    <img src="" alt="Banff Log Cabin Collage" class="mt-5" />
   </div>
 </template>
