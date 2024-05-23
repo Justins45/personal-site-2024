@@ -56,7 +56,7 @@ const mobileMenuOpen = ref(false)
     <Dialog class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
       <div class="fixed inset-0 z-10" />
       <DialogPanel
-        class="sm:ring-gray-900/10 fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-offwhite-500 px-6 py-6 sm:max-w-sm sm:ring-1"
+        class="sm:ring-gray-900/10 fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-offwhite-500  p-3 sm:max-w-sm sm:ring-1"
       >
         <div class="flex items-center">
           <button type="button" class="" @click="mobileMenuOpen = false">
