@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import ViewOtherProjects from "@/components/ViewOtherProjects.vue"
+import ComponentsCollage from '@/assets/images/artsman-components-collage.jpg'
 </script>
 
 <template>
@@ -16,6 +17,6 @@ import ViewOtherProjects from "@/components/ViewOtherProjects.vue"
         would benefit the company and the product users.
       </p>
     </div>
-    <img src="" alt="Artsman Components Collage" class="mt-5" />
+    <img :src="ComponentsCollage" alt="Artsman components collage" class="my-10 w-56 object-cover object-center mx-auto rounded-lg shadow-lg shadow-[rgb(0,0,0,0.4)]" />
   </div>
 </template>

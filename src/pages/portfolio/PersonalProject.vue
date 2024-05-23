@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import ViewOtherProjects from "@/components/ViewOtherProjects.vue"
+import PPCollage from '@/assets/images/personal-project-collage.jpg'
 </script>
 
 <template>
@@ -14,6 +15,6 @@ import ViewOtherProjects from "@/components/ViewOtherProjects.vue"
         applies that to outside the work space.
       </p>
     </div>
-    <img src="" alt="Personal Project Collage" class="mt-5" />
+    <img :src="PPCollage" alt="This current website collage" class="my-10 w-56 object-cover object-center mx-auto rounded-lg shadow-lg shadow-[rgb(0,0,0,0.4)]" />
   </div>
 </template>

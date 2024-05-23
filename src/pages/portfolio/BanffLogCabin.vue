@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import ViewOtherProjects from "@/components/ViewOtherProjects.vue"
+import BLCCollage from '@/assets/images/banff-log-cabin-collage.jpg'
 </script>
 
 <template>
@@ -24,6 +25,6 @@ import ViewOtherProjects from "@/components/ViewOtherProjects.vue"
         months and managing 2 other design members.
       </p>
     </div>
-    <img src="" alt="Banff Log Cabin Collage" class="mt-5" />
+    <img :src="BLCCollage" alt="Banff Log Cabin collage" class="my-10 w-56 object-cover object-center mx-auto rounded-lg shadow-lg shadow-[rgb(0,0,0,0.4)]" />
   </div>
 </template>
