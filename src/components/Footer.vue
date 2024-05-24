@@ -34,10 +34,10 @@ import LinkedIn from "@/assets/svgs/linkedin.svg"
     <div
       class="mr-5 flex flex-col space-y-5 sm:mt-10 sm:w-56 sm:flex-row sm:justify-between sm:space-y-0 md:mt-6 lg:mt-0"
     >
-      <a href="mailto: shaw,justin@shaw.ca" aria-label="email">
+      <a href="tel: +14039881047" aria-label="email">
         <PhoneIcon class="h-8 w-8 text-offblack-500" />
       </a>
-      <a href="tel: +14039881047" aria-label="phone">
+      <a href="mailto: shaw,justin@shaw.ca" aria-label="phone">
         <EnvelopeIcon class="h-8 w-8 text-offblack-500" />
       </a>
       <a
