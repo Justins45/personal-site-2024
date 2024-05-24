@@ -7,8 +7,12 @@
 html,
 body {
   font-family: "Roboto", sans-serif;
+  /* tailwind colour offblack-500 */
+  color: #363636;
 }
 
 #app {
   font-family: "Roboto", sans-serif;
+  /* tailwind colour offblack-500 */
+  color: #363636;
 }

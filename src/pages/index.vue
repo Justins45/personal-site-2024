@@ -11,9 +11,6 @@ import ServiceCard from "@/components/ServiceCard.vue"
 
 import JustinCafe from "@/assets/images/justin-cafe.jpeg"
 import BLCCollage from '@/assets/images/banff-log-cabin-collage.jpg'
-
-// TODO: Change all text to `text-offblack-500`
-
 </script>
 
 <template>
