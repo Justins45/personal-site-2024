@@ -37,9 +37,9 @@ const mobileMenuOpen = ref(false)
         </button>
       </div>
       <div class="flex lg:flex-1">
-        <RouterLink to="/" class="hidden lg:block"> Justin Shaw </RouterLink>
+        <RouterLink to="/" class="hidden lg:block font-bold text-xl"> Justin Shaw </RouterLink>
       </div>
-      <div class="hidden lg:flex lg:gap-x-12">
+      <div class="hidden lg:flex lg:gap-x-12 font-medium text-xl">
         <RouterLink v-for="item in navigation" :key="item.name" :to="item.href" class="">{{
           item.name
         }}</RouterLink>
@@ -49,14 +49,14 @@ const mobileMenuOpen = ref(false)
            target="_blank"
            aria-label="LinkedIn"
         >
-          <img :src="LinkedIn" alt="linkedin svg" class="h-6 w-6 text-offblack-500" />
+          <img :src="LinkedIn" alt="linkedin svg" class="h-8 w-8 text-offblack-500" />
         </a>
         <a
           href="https://www.instagram.com/jx_shaw/"
           target="_blank"
           aria-label="Instagram"
         >
-          <img :src="Insagram" alt="instagram svg" class="h-6 w-6 text-offblack-500" />
+          <img :src="Insagram" alt="instagram svg" class="h-8 w-8 text-offblack-500" />
         </a>
       </div>
     </nav>
@@ -76,14 +76,14 @@ const mobileMenuOpen = ref(false)
               target="_blank"
               aria-label="LinkedIn"
             >
-              <img :src="LinkedIn" alt="linkedin svg" class="h-6 w-6 text-offblack-500" />
+              <img :src="LinkedIn" alt="linkedin svg" class="h-8 w-8 text-offblack-500" />
             </a>
             <a
               href="https://www.instagram.com/jx_shaw/"
               target="_blank"
               aria-label="Instagram"
             >
-              <img :src="Insagram" alt="instagram svg" class="h-6 w-6 text-offblack-500" />
+              <img :src="Insagram" alt="instagram svg" class="h-8 w-8 text-offblack-500" />
             </a>
           </div>
         </div>
