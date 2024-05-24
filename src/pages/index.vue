@@ -18,12 +18,12 @@ import BLCCollage from '@/assets/images/banff-log-cabin-collage.jpg'
 
 <template>
   <div>
-    <div class="md:grid md:grid-cols-2 md:grid-rows-2">
-      <div class="mx-3 md:text-right md:mr-5">
-        <h1 class="mt-3 text-5xl lg:text-8xl font-black uppercase">I'm Justin</h1>
-        <p class="text-xl md:text-4xl font-bold uppercase">Your web developer</p>
+    <div class="md:mx-3 md:grid md:grid-cols-2 md:grid-rows-2 md:pr-10">
+      <div class="mx-3 md:mx-0 md:text-right md:mr-5">
+        <h1 class="mt-3 text-5xl lg:text-7xl xl:text-8xl font-black uppercase">I'm Justin</h1>
+        <p class="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold uppercase">Your web developer</p>
       </div>
-      <img :src="JustinCafe" alt="Image of me in a cafe" class="my-4 w-full object-cover object-top h-72 lg:h-[456px] md:row-span-2" />
+      <img :src="JustinCafe" alt="Image of me in a cafe" class="my-4 w-full object-cover object-top h-72 md:h-[456px] md:row-span-2" />
       <div class="mx-3 space-y-3 text-xl font-black uppercase md:text-right md:space-y-0 md:mt-9">
         <div class="hidden md:block h-32 -mt-16 -mr-16">
           <div class="h-1.5 w-64 rounded-full bg-gold ml-auto"></div>
