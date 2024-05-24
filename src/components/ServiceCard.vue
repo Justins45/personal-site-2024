@@ -9,7 +9,7 @@ const props = defineProps<{
 
 <template>
   <div class="mt-5">
-    <div class="mx-auto w-10/12 bg-offblack-300 px-3 pb-5">
+    <div class="mx-auto w-10/12 max-w-sm md:h-full bg-offblack-300 px-3 pb-5">
       <div class="ml-2 pl-3 pt-3">
         <component :is="props.icon" class="h-16 w-16 text-gold" />
       </div>
