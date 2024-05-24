@@ -6,11 +6,9 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue"
 <template>
   <div class="mx-3 mt-3">
     <h1 class="text-3xl lg:text-5xl font-medium">Frequently Asked Questions</h1>
-    <!-- TODO: Make Divider into a component -->
     <div class="my-5 lg:my-10">
       <div class="mt-5 h-[1px] bg-offblack-300/30"></div>
       <div>
-        <!-- TODO: Make Disclosure into a component ?? ~~Maybe~~ -->
         <Disclosure v-slot="{ open }">
           <DisclosureButton class="mt-3 flex w-full justify-between">
             <span class="w-64 md:w-full text-start text-2xl lg:text-3xl font-semibold">How much do you charge?</span>
