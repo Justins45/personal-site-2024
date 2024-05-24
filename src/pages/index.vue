@@ -41,7 +41,7 @@ import BLCCollage from '@/assets/images/banff-log-cabin-collage.jpg'
         </div>
       </div>
     </div>
-    <div class="mt-5 bg-offblack-500 py-5 text-offwhite-500">
+    <div class="mt-5 bg-offblack-500 py-5 text-offwhite-500 md:pb-10">
       <h2 class="text-center text-2xl font-semibold uppercase tracking-wider">Services</h2>
       <div class="md:flex md:justify-between">
         <ServiceCard
