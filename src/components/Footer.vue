@@ -3,9 +3,6 @@ import { EnvelopeIcon } from "@heroicons/vue/24/outline"
 import { PhoneIcon } from '@heroicons/vue/24/solid'
 import Insagram from "@/assets/svgs/instagram.svg"
 import LinkedIn from "@/assets/svgs/linkedin.svg"
-
-// TODO: make footer links send to top of page when clicked
-
 </script>
 
 <template>
