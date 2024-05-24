@@ -42,7 +42,7 @@ import BLCCollage from '@/assets/images/banff-log-cabin-collage.jpg'
       </div>
     </div>
     <div class="mt-5 bg-offblack-500 py-5 text-offwhite-500 md:pb-10">
-      <h2 class="text-center text-2xl font-semibold uppercase tracking-wider">Services</h2>
+      <h2 class="text-center text-2xl md:text-4xl md:py-10 font-semibold uppercase tracking-wider">Services</h2>
       <div class="md:flex md:justify-between">
         <ServiceCard
           title="Website Design"
@@ -63,7 +63,7 @@ import BLCCollage from '@/assets/images/banff-log-cabin-collage.jpg'
     </div>
     <LetsWorkTogether />
     <div class="mx-3 mt-5">
-      <h2 class="text-center text-3xl font-semibold tracking-wider">Featured Project</h2>
+      <h2 class="text-center text-3xl md:text-4xl md:py-8 font-semibold tracking-wider">Featured Project</h2>
       <div class="md:flex md:mt-10">
         <div>
           <div class="mt-3 text-2xl font-semibold md:flex">
