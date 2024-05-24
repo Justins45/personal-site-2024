@@ -16,20 +16,26 @@ import MDPeach from "@/assets/images/mb-peach.png"
   <div>
     <div class="mx-3 my-3">
       <h1 class="text-3xl font-semibold">Portfolio Projects</h1>
-      <div class="mt-5">
-        <RouterLink to="/portfolio/banfflogcabin">
-          <img :src="BLCCollage" alt="Banff Log Cabin collage" class="mb-10 w-56 h-56 object-cover object-center mx-auto rounded-lg shadow-lg shadow-[rgb(0,0,0,0.4)] hover:shadow-offblack-300" />
-        </RouterLink>
+      <div class="mt-5 md:flex md:justify-around">
+        <div class="w-56 mx-auto">
+          <RouterLink to="/portfolio/banfflogcabin">
+            <img :src="BLCCollage" alt="Banff Log Cabin collage" class="mb-10 w-56 h-56 object-cover object-center mx-auto rounded-lg shadow-lg shadow-[rgb(0,0,0,0.4)] hover:shadow-offblack-300" />
+          </RouterLink>
+        </div>
+        <div class="w-56 mx-auto">
         <RouterLink to="/portfolio/personalproject">
           <img :src="PPCollage" alt="This current website collage" class="mb-10 w-56 h-56 object-cover object-center mx-auto rounded-lg shadow-lg shadow-[rgb(0,0,0,0.4)] hover:shadow-offblack-300" />
         </RouterLink>
+        </div>
+          <div class="w-56 mx-auto">
         <RouterLink to="/portfolio/components">
           <img :src="ComponentsCollage" alt="Artsman components collage" class="mb-10 w-56 h-56 object-cover object-center mx-auto rounded-lg shadow-lg shadow-[rgb(0,0,0,0.4)] hover:shadow-offblack-300" />
         </RouterLink>
+          </div>
       </div>
     </div>
     <LetsWorkTogether />
-    <div class="mx-3 my-8 space-y-8">
+    <div class="mx-3 my-8 space-y-8 sm:space-y-0 sm:flex sm:justify-around sm:flex-wrap md:py-10 sm:gap-y-5 sm:max-w-3xl sm:mx-auto">
       <img :src="MDGold" alt="Gold mood board" class="w-56 h-56 object-center object-cover shadow-lg shadow-[rgba(0,0,0,0.4)] rounded-lg mx-auto" />
       <img :src="MDMaroon" alt="Maroon mood board" class="w-56 h-56 object-center object-cover shadow-lg shadow-[rgba(0,0,0,0.4)] rounded-lg mx-auto" />
       <img :src="MDTeal" alt="Teal mood board" class="w-56 h-56 object-center object-cover shadow-lg shadow-[rgba(0,0,0,0.4)] rounded-lg mx-auto" />
