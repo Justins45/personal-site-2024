@@ -7,7 +7,9 @@ import { ArrowRightIcon } from "@heroicons/vue/24/solid"
     <h2 class="text-center text-5xl font-bold text-gold">Let's Work Together</h2>
     <div class="mt-5 text-center text-offwhite-500">
       <RouterLink to="/contact">
-        <p class="text-xl tracking-wider underline-offset-2 hover:underline hover:decoration-gold md:flex justify-center">
+        <p
+          class="justify-center text-xl tracking-wider underline-offset-2 hover:underline hover:decoration-gold md:flex"
+        >
           Get in touch and we will create something
           <span class="flex items-center justify-center">
             amazing <ArrowRightIcon class="ml-3 h-6 w-6 text-gold" />

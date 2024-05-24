@@ -17,31 +17,69 @@ import MDPeach from "@/assets/images/mb-peach.png"
     <div class="mx-3 my-3">
       <h1 class="text-3xl font-semibold">Portfolio Projects</h1>
       <div class="mt-5 md:flex md:justify-around">
-        <div class="w-56 mx-auto">
+        <div class="mx-auto w-56">
           <RouterLink to="/portfolio/banfflogcabin">
-            <img :src="BLCCollage" alt="Banff Log Cabin collage" class="mb-10 w-56 h-56 object-cover object-center mx-auto rounded-lg shadow-lg shadow-[rgb(0,0,0,0.4)] hover:shadow-offblack-300" />
+            <img
+              :src="BLCCollage"
+              alt="Banff Log Cabin collage"
+              class="mx-auto mb-10 h-56 w-56 rounded-lg object-cover object-center shadow-lg shadow-[rgb(0,0,0,0.4)] hover:shadow-offblack-300"
+            />
           </RouterLink>
         </div>
-        <div class="w-56 mx-auto">
-        <RouterLink to="/portfolio/personalproject">
-          <img :src="PPCollage" alt="This current website collage" class="mb-10 w-56 h-56 object-cover object-center mx-auto rounded-lg shadow-lg shadow-[rgb(0,0,0,0.4)] hover:shadow-offblack-300" />
-        </RouterLink>
+        <div class="mx-auto w-56">
+          <RouterLink to="/portfolio/personalproject">
+            <img
+              :src="PPCollage"
+              alt="This current website collage"
+              class="mx-auto mb-10 h-56 w-56 rounded-lg object-cover object-center shadow-lg shadow-[rgb(0,0,0,0.4)] hover:shadow-offblack-300"
+            />
+          </RouterLink>
         </div>
-          <div class="w-56 mx-auto">
-        <RouterLink to="/portfolio/components">
-          <img :src="ComponentsCollage" alt="Artsman components collage" class="mb-10 w-56 h-56 object-cover object-center mx-auto rounded-lg shadow-lg shadow-[rgb(0,0,0,0.4)] hover:shadow-offblack-300" />
-        </RouterLink>
-          </div>
+        <div class="mx-auto w-56">
+          <RouterLink to="/portfolio/components">
+            <img
+              :src="ComponentsCollage"
+              alt="Artsman components collage"
+              class="mx-auto mb-10 h-56 w-56 rounded-lg object-cover object-center shadow-lg shadow-[rgb(0,0,0,0.4)] hover:shadow-offblack-300"
+            />
+          </RouterLink>
+        </div>
       </div>
     </div>
     <LetsWorkTogether />
-    <div class="mx-3 my-8 space-y-8 sm:space-y-0 sm:flex sm:justify-around sm:flex-wrap md:py-10 sm:gap-y-5 sm:max-w-3xl sm:mx-auto">
-      <img :src="MDGold" alt="Gold mood board" class="w-56 h-56 object-center object-cover shadow-lg shadow-[rgba(0,0,0,0.4)] rounded-lg mx-auto" />
-      <img :src="MDMaroon" alt="Maroon mood board" class="w-56 h-56 object-center object-cover shadow-lg shadow-[rgba(0,0,0,0.4)] rounded-lg mx-auto" />
-      <img :src="MDTeal" alt="Teal mood board" class="w-56 h-56 object-center object-cover shadow-lg shadow-[rgba(0,0,0,0.4)] rounded-lg mx-auto" />
-      <img :src="MDPurple" alt="Purple mood board" class="w-56 h-56 object-center object-cover shadow-lg shadow-[rgba(0,0,0,0.4)] rounded-lg mx-auto" />
-      <img :src="MDGrey" alt="Grey mood board" class="w-56 h-56 object-center object-cover shadow-lg shadow-[rgba(0,0,0,0.4)] rounded-lg mx-auto" />
-      <img :src="MDPeach" alt="Peach mood board" class="w-56 h-56 object-center object-cover shadow-lg shadow-[rgba(0,0,0,0.4)] rounded-lg mx-auto" />
+    <div
+      class="mx-3 my-8 space-y-8 sm:mx-auto sm:flex sm:max-w-3xl sm:flex-wrap sm:justify-around sm:gap-y-5 sm:space-y-0 md:py-10"
+    >
+      <img
+        :src="MDGold"
+        alt="Gold mood board"
+        class="mx-auto h-56 w-56 rounded-lg object-cover object-center shadow-lg shadow-[rgba(0,0,0,0.4)]"
+      />
+      <img
+        :src="MDMaroon"
+        alt="Maroon mood board"
+        class="mx-auto h-56 w-56 rounded-lg object-cover object-center shadow-lg shadow-[rgba(0,0,0,0.4)]"
+      />
+      <img
+        :src="MDTeal"
+        alt="Teal mood board"
+        class="mx-auto h-56 w-56 rounded-lg object-cover object-center shadow-lg shadow-[rgba(0,0,0,0.4)]"
+      />
+      <img
+        :src="MDPurple"
+        alt="Purple mood board"
+        class="mx-auto h-56 w-56 rounded-lg object-cover object-center shadow-lg shadow-[rgba(0,0,0,0.4)]"
+      />
+      <img
+        :src="MDGrey"
+        alt="Grey mood board"
+        class="mx-auto h-56 w-56 rounded-lg object-cover object-center shadow-lg shadow-[rgba(0,0,0,0.4)]"
+      />
+      <img
+        :src="MDPeach"
+        alt="Peach mood board"
+        class="mx-auto h-56 w-56 rounded-lg object-cover object-center shadow-lg shadow-[rgba(0,0,0,0.4)]"
+      />
     </div>
   </div>
 </template>

@@ -11,16 +11,26 @@ import JustinRiverRocks from "@/assets/images/justin-river-rocks.jpg"
       <p class="text-center text-5xl font-black uppercase md:text-8xl">Justin Shaw</p>
     </div>
     <div class="relative">
-      <div class="h-24 md:h-36 lg:h-56 w-full bg-offblack-500 absolute z-10 top-0 left-0"></div>
-      <div class="relative w-70">
-        <img :src="JustinRiverRocks" alt="image of me crouching on rocks by a river" class="h-32 md:h-60 lg:w-10/12 lg:h-auto absolute z-20 mt-3 lg:mt-5 m-auto left-0 right-0 " />
-        <div class="bg-gold h-1 md:h-1.5 rounded-r-full w-20 absolute z-30 top-20 md:top-44 lg:top-[338px] min-[470px]:w-44 lg:w-64"></div>
-        <div class="bg-gold h-1 md:h-1.5 rounded-r-full w-20 absolute z-30 top-24 md:top-48 lg:top-[370px] min-[470px]:w-44 lg:w-64"></div>
-        <div class="bg-gold h-1 md:h-1.5 rounded-r-full w-20 absolute z-30 top-28 md:top-52 lg:top-[402px] min-[470px]:w-44 lg:w-64"></div>
+      <div class="absolute left-0 top-0 z-10 h-24 w-full bg-offblack-500 md:h-36 lg:h-56"></div>
+      <div class="w-70 relative">
+        <img
+          :src="JustinRiverRocks"
+          alt="image of me crouching on rocks by a river"
+          class="absolute left-0 right-0 z-20 m-auto mt-3 h-32 md:h-60 lg:mt-5 lg:h-auto lg:w-10/12"
+        />
+        <div
+          class="absolute top-20 z-30 h-1 w-20 rounded-r-full bg-gold min-[470px]:w-44 md:top-44 md:h-1.5 lg:top-[338px] lg:w-64"
+        ></div>
+        <div
+          class="absolute top-24 z-30 h-1 w-20 rounded-r-full bg-gold min-[470px]:w-44 md:top-48 md:h-1.5 lg:top-[370px] lg:w-64"
+        ></div>
+        <div
+          class="absolute top-28 z-30 h-1 w-20 rounded-r-full bg-gold min-[470px]:w-44 md:top-52 md:h-1.5 lg:top-[402px] lg:w-64"
+        ></div>
       </div>
     </div>
-    <div class="h-16 w-full bg-offblack-500 mt-40 md:mt-80  lg:mt-[525px]"></div>
-    <div class="mx-3 space-y-5 text-xl mt-5">
+    <div class="mt-40 h-16 w-full bg-offblack-500 md:mt-80 lg:mt-[525px]"></div>
+    <div class="mx-3 mt-5 space-y-5 text-xl">
       <div class="md:flex">
         <div class="ml-3 md:w-1/2">
           <p class="text-sm">name</p>
@@ -33,7 +43,7 @@ import JustinRiverRocks from "@/assets/images/justin-river-rocks.jpg"
         <div class="ml-3 md:w-1/2">
           <p class="text-sm">contact</p>
           <div class="-ml-3 h-[1px] bg-offblack-300/30"></div>
-          <div class="mt-2 grid grid-cols-2 max-w-xs md:w-60 md:mt-5">
+          <div class="mt-2 grid max-w-xs grid-cols-2 md:mt-5 md:w-60">
             <a href="#" class="font-semibold decoration-gold hover:underline">Instagram</a>
             <a href="#" class="font-semibold decoration-gold hover:underline">LinkedIn</a>
           </div>
@@ -42,12 +52,12 @@ import JustinRiverRocks from "@/assets/images/justin-river-rocks.jpg"
               <a
                 href="mailto: shaw.justin@shaw.ca"
                 class="font-semibold decoration-gold hover:underline"
-              >shaw.justin@shaw.ca</a
+                >shaw.justin@shaw.ca</a
               >
             </p>
             <p>
               <a href="tel:+14039881047" class="font-semibold decoration-gold hover:underline"
-              >(403) 988-1047</a
+                >(403) 988-1047</a
               >
             </p>
           </div>
@@ -86,10 +96,11 @@ import JustinRiverRocks from "@/assets/images/justin-river-rocks.jpg"
           <p class="font-semibold">
             My name is Justin, I am 22 years old website developer and I have been building websites
             for 4 years now. I specialize in
-            <a href="" class="underline decoration-gold hover:text-gold">Vue</a> but I have also dabbled in
-            <a href="" class="underline decoration-gold hover:text-gold">React</a> and built many websites in raw
-            HTML and CSS. Building a website that you will love is what gets me out of bed in the
-            morning and I wish to make the best website possible for your needs.
+            <a href="" class="underline decoration-gold hover:text-gold">Vue</a> but I have also
+            dabbled in <a href="" class="underline decoration-gold hover:text-gold">React</a> and
+            built many websites in raw HTML and CSS. Building a website that you will love is what
+            gets me out of bed in the morning and I wish to make the best website possible for your
+            needs.
           </p>
         </div>
       </div>

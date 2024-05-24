@@ -10,22 +10,28 @@ import HaveAQuestion from "@/components/HaveAQuestion.vue"
 import ServiceCard from "@/components/ServiceCard.vue"
 
 import JustinCafe from "@/assets/images/justin-cafe.jpeg"
-import BLCCollage from '@/assets/images/banff-log-cabin-collage.jpg'
+import BLCCollage from "@/assets/images/banff-log-cabin-collage.jpg"
 </script>
 
 <template>
   <div>
     <div class="md:mx-3 md:grid md:grid-cols-2 md:grid-rows-2 md:pr-10">
-      <div class="mx-3 md:mx-0 md:text-right md:mr-5">
-        <h1 class="mt-3 text-5xl lg:text-7xl xl:text-8xl font-black uppercase">I'm Justin</h1>
-        <p class="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold uppercase">Your web developer</p>
+      <div class="mx-3 md:mx-0 md:mr-5 md:text-right">
+        <h1 class="mt-3 text-5xl font-black uppercase lg:text-7xl xl:text-8xl">I'm Justin</h1>
+        <p class="text-xl font-bold uppercase md:text-2xl lg:text-3xl xl:text-4xl">
+          Your web developer
+        </p>
       </div>
-      <img :src="JustinCafe" alt="Image of me in a cafe" class="my-4 w-full object-cover object-top h-72 md:h-[456px] md:row-span-2" />
-      <div class="mx-3 space-y-3 text-xl font-black uppercase md:text-right md:space-y-0 md:mt-9">
-        <div class="hidden md:block h-32 -mt-16 -mr-16">
-          <div class="h-1.5 w-64 rounded-full bg-gold ml-auto"></div>
-          <div class="h-1.5 w-48 rounded-full bg-gold ml-auto mt-8"></div>
-          <div class="h-1.5 w-32 rounded-full bg-gold ml-auto mt-8"></div>
+      <img
+        :src="JustinCafe"
+        alt="Image of me in a cafe"
+        class="my-4 h-72 w-full object-cover object-top md:row-span-2 md:h-[456px]"
+      />
+      <div class="mx-3 space-y-3 text-xl font-black uppercase md:mt-9 md:space-y-0 md:text-right">
+        <div class="-mr-16 -mt-16 hidden h-32 md:block">
+          <div class="ml-auto h-1.5 w-64 rounded-full bg-gold"></div>
+          <div class="ml-auto mt-8 h-1.5 w-48 rounded-full bg-gold"></div>
+          <div class="ml-auto mt-8 h-1.5 w-32 rounded-full bg-gold"></div>
         </div>
         <div class="md:mr-5 md:text-2xl">
           <p>Hand made</p>
@@ -39,7 +45,9 @@ import BLCCollage from '@/assets/images/banff-log-cabin-collage.jpg'
       </div>
     </div>
     <div class="mt-5 bg-offblack-500 py-5 text-offwhite-500 md:pb-10">
-      <h2 class="text-center text-2xl md:text-4xl md:py-10 font-semibold uppercase tracking-wider">Services</h2>
+      <h2 class="text-center text-2xl font-semibold uppercase tracking-wider md:py-10 md:text-4xl">
+        Services
+      </h2>
       <div class="md:flex md:justify-between">
         <ServiceCard
           title="Website Design"
@@ -60,8 +68,10 @@ import BLCCollage from '@/assets/images/banff-log-cabin-collage.jpg'
     </div>
     <LetsWorkTogether />
     <div class="mx-3 mt-5">
-      <h2 class="text-center text-3xl md:text-4xl md:py-8 font-semibold tracking-wider">Featured Project</h2>
-      <div class="md:flex md:mt-10">
+      <h2 class="text-center text-3xl font-semibold tracking-wider md:py-8 md:text-4xl">
+        Featured Project
+      </h2>
+      <div class="md:mt-10 md:flex">
         <div>
           <div class="mt-3 text-2xl font-semibold md:flex">
             <p>University</p>
@@ -79,19 +89,23 @@ import BLCCollage from '@/assets/images/banff-log-cabin-collage.jpg'
               </ul>
             </div>
             <p>
-              My role was the team design lead for designing and building the project over the course of 5
-              months and managing 2 other design members.
+              My role was the team design lead for designing and building the project over the
+              course of 5 months and managing 2 other design members.
             </p>
           </div>
         </div>
         <div class="md:w-96 md:pr-10">
-          <img :src="BLCCollage" alt="Banff Log Cabin collage" class="my-10 w-56 md:w-full object-cover object-center mx-auto rounded-lg shadow-lg shadow-[rgb(0,0,0,0.4)]" />
+          <img
+            :src="BLCCollage"
+            alt="Banff Log Cabin collage"
+            class="mx-auto my-10 w-56 rounded-lg object-cover object-center shadow-lg shadow-[rgb(0,0,0,0.4)] md:w-full"
+          />
         </div>
       </div>
       <div class="my-5 md:mb-10">
         <RouterLink
           to="/portfolio"
-          class="flex justify-center lg:justify-start lg:-mt-28 decoration-gold underline-offset-2 hover:underline"
+          class="flex justify-center decoration-gold underline-offset-2 hover:underline lg:-mt-28 lg:justify-start"
         >
           <p class="text-2xl sm:text-3xl">View more projects</p>
           <ArrowRightIcon class="ml-3 h-8 w-8" />
