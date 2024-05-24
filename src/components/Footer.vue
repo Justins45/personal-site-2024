@@ -9,13 +9,13 @@ import LinkedIn from "@/assets/svgs/linkedin.svg"
 </script>
 
 <template>
-  <div class="mx-3 py-3">
+  <div class="mx-3 py-3 flex justify-between">
+    <div class="lg:flex">
     <div>
-      <RouterLink to="/" class="text-lg font-semibold tracking-wider"> Justin Shaw </RouterLink>
+      <RouterLink to="/" class="font-bold text-xl">Justin Shaw</RouterLink>
     </div>
-    <div class="mt-3 grid grid-cols-3">
-      <div class="col-span-2">
-        <ul class="text-xl font-thin">
+    <div class="mt-3 md:-mt-2 sm:-ml-2 lg:ml-5">
+        <ul class="text-xl font-thin flex flex-col md:flex-row">
           <li class="p-2">
             <RouterLink to="/" class="hover:underline"> Home </RouterLink>
           </li>
@@ -33,31 +33,28 @@ import LinkedIn from "@/assets/svgs/linkedin.svg"
           </li>
         </ul>
       </div>
-      <div>
-        <!-- Icons -->
-        <div class="mr-5 flex flex-col items-end space-y-5">
-          <a href="mailto: shaw,justin@shaw.ca" aria-label="email">
-            <PhoneIcon class="h-8 w-8 text-offblack-500" />
-          </a>
-          <a href="tel: +14039881047" aria-label="phone">
-            <EnvelopeIcon class="h-8 w-8 text-offblack-500" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/justin-shaw-598786227/"
-            target="_blank"
-            aria-label="LinkedIn"
-          >
-            <img :src="LinkedIn" alt="linkedin svg" class="h-8 w-8 text-offblack-500" />
-          </a>
-          <a
-            href="https://www.instagram.com/jx_shaw/"
-             target="_blank"
-             aria-label="Instagram"
-          >
-            <img :src="Insagram" alt="instagram svg" class="h-8 w-8 text-offblack-500" />
-          </a>
-        </div>
-      </div>
+    </div>
+    <div class="mr-5 flex flex-col space-y-5 sm:flex-row sm:justify-between sm:space-y-0 sm:mt-10 md:mt-6 lg:mt-0 sm:w-56">
+      <a href="mailto: shaw,justin@shaw.ca" aria-label="email">
+        <PhoneIcon class="h-8 w-8 text-offblack-500" />
+      </a>
+      <a href="tel: +14039881047" aria-label="phone">
+        <EnvelopeIcon class="h-8 w-8 text-offblack-500" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/justin-shaw-598786227/"
+        target="_blank"
+        aria-label="LinkedIn"
+      >
+        <img :src="LinkedIn" alt="linkedin svg" class="h-8 w-8 text-offblack-500" />
+      </a>
+      <a
+        href="https://www.instagram.com/jx_shaw/"
+        target="_blank"
+        aria-label="Instagram"
+      >
+        <img :src="Insagram" alt="instagram svg" class="h-8 w-8 text-offblack-500" />
+      </a>
     </div>
   </div>
 </template>

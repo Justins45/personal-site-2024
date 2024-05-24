@@ -15,7 +15,7 @@ const props = defineProps<{
       </div>
       <div class="ml-3 mt-5">
         <h3 class="ml-2 w-32 text-xl font-medium tracking-wider">{{ props.title }}</h3>
-        <div class="-mt-2.5 h-2 w-56 rounded-full bg-gold"></div>
+        <div class="-mt-2.5 h-2 w-36 md:w-48 lg:w-56 rounded-full bg-gold"></div>
         <p class="ml-2 mt-5">{{ props.text }}</p>
       </div>
     </div>
