@@ -5,9 +5,9 @@ import ComponentsCollage from '@/assets/images/artsman-components-collage.jpg'
 
 <template>
   <div class="mx-3">
+    <ViewOtherProjects />
     <div class="md:flex justify-center">
       <div class="md:pr-10">
-        <ViewOtherProjects />
         <h1 class="mt-3 flex flex-col text-3xl font-bold">Artsman Components</h1>
         <div class="mt-5 space-y-3 text-lg">
           <p>

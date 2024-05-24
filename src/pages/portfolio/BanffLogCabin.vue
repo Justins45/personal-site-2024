@@ -5,9 +5,9 @@ import BLCCollage from '@/assets/images/banff-log-cabin-collage.jpg'
 
 <template>
   <div class="mx-3">
+    <ViewOtherProjects />
     <div class="md:flex justify-center">
       <div class="md:pr-10">
-        <ViewOtherProjects />
         <h1 class="mt-3 flex flex-col md:flex-row text-3xl font-bold">
           <span>Capstone -</span>
           <span class="md:ml-2">Banff Log Cabin</span>
