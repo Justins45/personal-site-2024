@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { ref } from "vue"
 import { Dialog, DialogPanel } from "@headlessui/vue"
 import {  XMarkIcon } from "@heroicons/vue/24/outline"
@@ -14,9 +14,7 @@ const navigation = [
   { name: "Contact Me", href: "/contact" }
 ]
 
-const mobileMenuOpen = ref(false)
-
-// TODO: make nav disappear with a click (tailwind-platorm has the fix)
+const navOpen = ref(false)
 
 </script>
 
@@ -30,7 +28,7 @@ const mobileMenuOpen = ref(false)
         <button
           type="button"
           class="inline-flex items-center justify-center"
-          @click="mobileMenuOpen = true"
+          @click="navOpen = true"
         >
           <span class="sr-only">Open main menu</span>
           <img :src="BurgerMenu" alt="burger menu svg" class="h-8 w-8 text-offblack-500" aria-hidden="true" />
@@ -40,7 +38,7 @@ const mobileMenuOpen = ref(false)
         <RouterLink to="/" class="hidden lg:block font-bold text-xl"> Justin Shaw </RouterLink>
       </div>
       <div class="hidden lg:flex lg:gap-x-12 font-medium text-xl">
-        <RouterLink v-for="item in navigation" :key="item.name" :to="item.href" class="">{{
+        <RouterLink v-for="item in navigation" :key="item.name" :to="item.href">{{
           item.name
         }}</RouterLink>
       </div>
@@ -60,13 +58,13 @@ const mobileMenuOpen = ref(false)
         </a>
       </div>
     </nav>
-    <Dialog class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
+    <Dialog class="lg:hidden" @close="navOpen = false" :open="navOpen">
       <div class="fixed inset-0 z-10" />
       <DialogPanel
         class="sm:ring-gray-900/10 fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-offwhite-500  p-3 sm:max-w-sm sm:ring-1"
       >
         <div class="flex items-center">
-          <button type="button" class="" @click="mobileMenuOpen = false">
+          <button type="button"  @click="navOpen = false">
             <span class="sr-only">Close menu</span>
             <XMarkIcon class="h-8 w-8" aria-hidden="true" />
           </button>
@@ -94,6 +92,7 @@ const mobileMenuOpen = ref(false)
             :key="item.name"
             :to="item.href"
             class="rounded-xl py-2 hover:bg-offwhite-700"
+            @click="navOpen = false"
             >{{ item.name }}</RouterLink
           >
         </div>
