@@ -96,7 +96,7 @@ import BLCCollage from '@/assets/images/banff-log-cabin-collage.jpg'
           to="/portfolio"
           class="flex justify-center decoration-gold underline-offset-2 hover:underline"
         >
-          <p class="text-2xl">View more projects</p>
+          <p class="text-2xl sm:text-4xl">View more projects</p>
           <ArrowRightIcon class="ml-3 h-8 w-8" />
         </RouterLink>
       </div>
