@@ -2,6 +2,14 @@
 import LetsWorkTogether from "@/components/LetsWorkTogether.vue"
 
 import JustinRiverRocks from "@/assets/images/justin-river-rocks.jpg"
+import { definePage } from "vue-router/auto"
+definePage({
+  name: "About",
+  path: "/about",
+  meta: {
+    title: "Justin Shaw - About"
+  }
+})
 </script>
 
 <template>

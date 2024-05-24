@@ -1,6 +1,15 @@
 <script setup lang="ts">
 import { PlusIcon, MinusIcon } from "@heroicons/vue/20/solid"
 import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue"
+
+import { definePage } from "vue-router/auto"
+definePage({
+  name: "FAQ",
+  path: "/faq",
+  meta: {
+    title: "Justin Shaw - FAQ"
+  }
+})
 </script>
 
 <template>

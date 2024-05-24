@@ -1,6 +1,15 @@
 <script setup lang="ts">
 import ViewOtherProjects from "@/components/ViewOtherProjects.vue"
 import BLCCollage from "@/assets/images/banff-log-cabin-collage.jpg"
+
+import { definePage } from "vue-router/auto"
+definePage({
+  name: "blc",
+  path: "/portfolio/banfflogcabin",
+  meta: {
+    title: "Justin Shaw - BLC"
+  }
+})
 </script>
 
 <template>

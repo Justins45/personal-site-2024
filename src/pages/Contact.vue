@@ -2,6 +2,14 @@
 import { PhoneIcon } from "@heroicons/vue/24/solid"
 import { EnvelopeIcon } from "@heroicons/vue/24/outline"
 import HaveAQuestion from "@/components/HaveAQuestion.vue"
+import { definePage } from "vue-router/auto"
+definePage({
+  name: "Contact",
+  path: "/contact",
+  meta: {
+    title: "Justin Shaw - Contact me"
+  }
+})
 </script>
 
 <template>

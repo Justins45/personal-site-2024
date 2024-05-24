@@ -11,6 +11,15 @@ import ServiceCard from "@/components/ServiceCard.vue"
 
 import JustinCafe from "@/assets/images/justin-cafe.jpeg"
 import BLCCollage from "@/assets/images/banff-log-cabin-collage.jpg"
+
+import { definePage } from "vue-router/auto"
+definePage({
+  name: "Justin Shaw",
+  path: "/",
+  meta: {
+    title: "Justin Shaw"
+  }
+})
 </script>
 
 <template>

@@ -1,6 +1,15 @@
 <script setup lang="ts">
 import ViewOtherProjects from "@/components/ViewOtherProjects.vue"
 import PPCollage from "@/assets/images/personal-project-collage.jpg"
+
+import { definePage } from "vue-router/auto"
+definePage({
+  name: "Personal Project",
+  path: "/portfolio/personalproject",
+  meta: {
+    title: "Justin Shaw - Personal"
+  }
+})
 </script>
 
 <template>

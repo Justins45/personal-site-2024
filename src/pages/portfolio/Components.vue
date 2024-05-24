@@ -1,6 +1,14 @@
 <script setup lang="ts">
 import ViewOtherProjects from "@/components/ViewOtherProjects.vue"
 import ComponentsCollage from "@/assets/images/artsman-components-collage.jpg"
+import { definePage } from "vue-router/auto"
+definePage({
+  name: "Components",
+  path: "/portfolio/components",
+  meta: {
+    title: "Justin Shaw - Components"
+  }
+})
 </script>
 
 <template>

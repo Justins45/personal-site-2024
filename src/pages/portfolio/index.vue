@@ -10,6 +10,14 @@ import MDTeal from "@/assets/images/mb-teal.png"
 import MDPurple from "@/assets/images/mb-purple.png"
 import MDGrey from "@/assets/images/mb-grey.png"
 import MDPeach from "@/assets/images/mb-peach.png"
+import { definePage } from "vue-router/auto"
+definePage({
+  name: "portfolio",
+  path: "/portfolio",
+  meta: {
+    title: "Justin Shaw - Portfolio"
+  }
+})
 </script>
 
 <template>
