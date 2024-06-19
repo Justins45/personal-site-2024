@@ -1,8 +1,9 @@
 <script setup lang="ts">
+import {ref} from "vue"
 import LetsWorkTogether from "@/components/LetsWorkTogether.vue"
-
 import JustinRiverRocks from "@/assets/images/justin-river-rocks.jpg"
 import { definePage } from "vue-router/auto"
+
 definePage({
   name: "About",
   path: "/about",
@@ -10,6 +11,13 @@ definePage({
     title: "Justin Shaw - About"
   }
 })
+
+const date = new Date()
+const year = date.getFullYear()
+
+const yearsOld = ref(year - 2002)
+const yearsCoding = ref(year - 2020)
+
 </script>
 
 <template>
@@ -102,8 +110,8 @@ definePage({
         <div class="-ml-3 h-[1px] bg-offblack-300/30"></div>
         <div class="mt-2 space-y-2 md:mt-5">
           <p class="font-semibold">
-            My name is Justin, I am 22 years old website developer and I have been building websites
-            for 4 years now. I specialize in
+            My name is Justin, I am {{ yearsOld }} years old website developer and I have been building websites
+            for {{ yearsCoding }} years now. I specialize in
             <a href="" class="underline decoration-gold hover:text-gold">Vue</a> but I have also
             dabbled in <a href="" class="underline decoration-gold hover:text-gold">React</a> and
             built many websites in raw HTML and CSS. Building a website that you will love is what
