@@ -67,7 +67,7 @@ definePage({
           </DisclosureButton>
           <DisclosurePanel class="mt-2 lg:py-3 lg:text-lg">
             The length of time to complete each projects depends on the schedule you need it
-            completed within, the sooner you need it the sooner ill complete it, but for what is
+            completed within, the sooner you need it the sooner I'll complete it, but for what is
             included in the minimums it will take about 2-3 weeks depending on the content being
             built.
           </DisclosurePanel>
