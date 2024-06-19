@@ -1,0 +1,43 @@
+/* TEAM */
+
+                            
+Web Designer: Justin Shaw
+
+Web Developer: Justin Shaw
+                            
+Site: https://justinshaw.ca/
+
+Email: shaw.justin@shaw.ca
+                            
+Location: Calgary Alberta, Canada
+
+                         
+                 
+                        [...]
+						
+							
+/* THANKS */
+
+							
+Name: Github For Having Files all in one safe place,
+      NameCheap for hosting main website
+
+						
+                 
+                        [...]
+                        
+
+                            
+/* SITE */
+
+                            
+Last update: 06/19/2024
+
+                            
+Standards: HTML5, CSS3, JavaScript, Vue3
+
+                            
+Components:
+
+                            
+Software: Visual Studio Code, JetBrains WebStorm
