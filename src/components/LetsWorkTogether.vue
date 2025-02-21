@@ -11,7 +11,7 @@ import { ArrowRightIcon } from "@heroicons/vue/24/solid"
           class="justify-center text-xl tracking-wider underline-offset-2 hover:underline hover:decoration-gold md:flex"
         >
           Get in touch and we will create something
-          <span class="flex items-center justify-center">
+          <span class="flex items-center justify-center pl-1.5">
             amazing <ArrowRightIcon class="ml-3 h-6 w-6 text-gold" />
           </span>
         </p>
