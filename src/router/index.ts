@@ -11,13 +11,4 @@ const router = createRouter({
 router.beforeEach((to: any, from: any) => {
   document.title = to.meta?.title ?? "Justin Shaw"
 })
-
-// navigation when navigating to a specific URL
-if (window.location.pathname !== "/") {
-  const routeString = window.location.href.replace(window.location.origin, "")
-  const route = router.resolve(routeString)
-  if (route.matched.length > 0) {
-    router.replace({ path: routeString })
-  }
-}
 export default router
